@@ -1,0 +1,19 @@
+{
+  "name": "testgraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graphQL.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^15.5.1",
+    "graphql-request": "^3.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
