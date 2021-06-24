@@ -23,6 +23,8 @@ How to use:
    1. Headless API provides getters by `groupId + articleId` but also provides by `entryId`.
    2. In this example we''ve covered both scenarios
 7. Run `browserify index.js > build/main.js`
+   1. browserify is responsible for transpile ES6 (not supported by browsers) to ES5 (supported)
+   2. Whenever you change your index.js, you must to run browserify command again to update the target file.
 8. Open `index.html` in your browser
 
 Done! You must be seeing your journalArticle content in your page.
